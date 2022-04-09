@@ -4,6 +4,7 @@
 /**
  * main - entry point
  *
+ * Description: the return value is 1
  * return Always 0 (success)
  */
 int main(void)
