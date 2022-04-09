@@ -2,17 +2,17 @@
 /**
  * main - entry point
  *
- * Description: prints lowercase alphabets backward
+ * Description: print lowercase alphabet backward
  * Return: 0
  */
 int main(void)
 {
 	char c;
 
-	for (c = 'z'; c >= 'a'; ++c)
+	for (c = 'z'; c >= 'a'; --c)
 	putchar(c);
 
-        putchar('\n');
+	putchar('\n');
 
 	return (0);
-}	
+}
