@@ -9,10 +9,5 @@
 
 void reset_to_98(int *n)
 {
-	int a;
-
-	a = 0;
-	n = &a;
 	*n = 98;
-	_putchar("%d\n", a);
 }
