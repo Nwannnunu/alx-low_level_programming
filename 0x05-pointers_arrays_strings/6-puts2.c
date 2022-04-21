@@ -9,13 +9,11 @@
 void puts2(char *str)
 {
 	int a;
-	char s[32] = " ";
 
-
-	for (a = 0; a < *str; a += 2)
+	for (a = 0; a < *str; a++)
 	{
+		if (a % 2 == 0)
 		_putchar(str[a]);
-		s[a / 2] = str[a];
 	}
 	_putchar('\n');
 }
