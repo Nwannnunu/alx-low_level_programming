@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -9,7 +9,7 @@ nclude <stdio.h>
  * Return: Always Success
  */
 
-void print_name(char *name, void (*f)(char *));
+void print_name(char *name, void (*f)(char *))
 {
 	if (f == NULL)
 		return;
