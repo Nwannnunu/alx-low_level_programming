@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * sum_all_them - variadic function to sum all its parameters
+ * sum_them_all - variadic function to sum all its parameters
  * @n: unsigned int n
  * Return: return 0 if n == 0 or sum of parameters otherwise
  */
