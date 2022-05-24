@@ -11,7 +11,7 @@ size_t list_len(const list_t *h)
 	unsigned int count;
 
 	tmp = malloc(sizeof(list_t));
-	if (tmp)
+	if (tmp == NULL)
 		return (0);
 	tmp = h;
 	count  = 0;
