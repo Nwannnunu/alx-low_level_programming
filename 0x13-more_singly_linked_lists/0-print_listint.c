@@ -8,6 +8,9 @@ size_t print_listint(const listint_t *h)
 {
 	unsigned int count = 0;
 
+	if (h == NULL)
+		printf("Error\n");
+	else
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
