@@ -12,7 +12,8 @@ size_t print_listint(const listint_t *h)
 	{
 		printf("Error\n");
 	}
-	else while (h != NULL)
+	else
+	       	while (h != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
