@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_bit - function to get bit at index
+ * get_bit - functions to gets bit at index
  * @n: unsigned long int type
  * @index: unsigned int type
  * Return: always successful
